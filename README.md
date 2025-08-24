@@ -56,7 +56,7 @@ The Neural Network model outperforms the Linear Regressor in terms of prediction
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/koh-jiahao/Mobile-Phone-Price-Prediction.git
+    git clone https://github.com/koh-jiahao/mobile-phone-price-prediction.git
     cd mobile-price-prediction
 
 
