@@ -19,7 +19,7 @@ Two models are implemented and compared:
 
 The Neural Network model outperforms the Linear Regressor in terms of prediction accuracy, as measured by RMSE and R² score.
 
-
+---
 <h2>📁 Files</h2>
 
 - phone_price_prediction.ipynb: The main notebook containing data preprocessing, model training, evaluation, and prediction steps.
@@ -27,7 +27,7 @@ The Neural Network model outperforms the Linear Regressor in terms of prediction
 - checkpoints/: Directory where trained neural network models are saved during training (via Keras callbacks).
 
 
-
+---
 <h2>🧪 Models Used</h2>
 
 🔹**Linear Regression**
@@ -51,23 +51,23 @@ The Neural Network model outperforms the Linear Regressor in terms of prediction
   - R² Score
   - Mean Squared Error (MSE)
 
-
-  <h1>How to Run</h1>
+---
+  <h2>How to Run</h2>
 
 1. Clone the repository:
-
-          git clone https://github.com/koh-jiahao/Mobile-Phone-Price-Prediction.git
-          cd mobile-price-prediction
+    ```bash
+    git clone https://github.com/koh-jiahao/Mobile-Phone-Price-Prediction.git
+    cd mobile-price-prediction
 
 
 2. Install dependencies:
-
-          pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 
 3. Launch the Jupyter Notebook:
+    ```bash
+    jupyter notebook
 
-          jupyter notebook
 
-
-Open phone_price_prediction.ipynb and run the cells.
+4. Open phone_price_prediction.ipynb and run the cells.
